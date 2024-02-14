@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Harjoitukset 2</title>
+  </head>
+  <body>
+    <!-- Tehtävä 1 -->
+    <div id="tehtava1">
+      <h1>Tervehtiminen</h1>
+      <input
+        id="name"
+        type="text"
+        name="firstname"
+        autocomplete="off"
+        placeholder="Kirjoita nimesi"
+      />
+      <button id="go1">GO!</button>
+      <p id="greeting"></p>
+    </div>
+    <!-- Tehtävä 2 -->
+    <div>
+      <h1>Iän tarkistus</h1>
+      <input
+        type="number"
+        id="ageInput"
+        autocomplete="off"
+        placeholder="Kuinka vanha olet?"
+      />
+      <button id="go2">GO!</button>
+      <!--<button onclick="checkAge()">GO!</button> -->
+      <p id="ageMessage"></p>
+    </div>
+
+    <!-- Tehtävä 3 -->
+    <div id="tehtava3" style="display: none">
+      <!-- <div> -->
+      <h1>Arvaa mitä numeroa ajattelen</h1>
+      <input
+        type="number"
+        id="lowerNum"
+        autocomplete="off"
+        placeholder="Anna alaraja"
+      />
+      <input
+        type="number"
+        id="upperNum"
+        autocomplete="off"
+        placeholder="Anna yläraja"
+      />
+      <input
+        type="number"
+        id="guessInput"
+        autocomplete="off"
+        placeholder="Arvaa numero"
+      />
+      <button id="go3">GO!</button>
+      <p id="guessMessage"></p>
+    </div>
+
+    <script src="yksi.js"></script>
+  </body>
+</html>
